@@ -1,0 +1,124 @@
+/* universal section */
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* reusable parts */
+.font-size-10{
+    font-size: 10px !important;
+}
+
+.font-size-15{
+    font-size: 15px !important;
+}
+
+.font-size-20{
+    font-size: 20px !important;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-40{
+    font-size: 40px;
+}
+
+.yellow{
+    color: yellow !important;
+}
+
+.padding-bottom-100{
+    padding-bottom: 100px;
+}
+
+/* banner section */
+.banner{
+    background-color: #89898b;
+    padding: 200px 0;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.btn-custom{
+    border: 1px solid yellow;
+}
+.btn-custom:hover{
+    background-color: yellow !important;
+    color: black !important;
+}
+
+/* navbar section */
+.yellowmoonnavbar{
+    border-bottom: 2px solid yellow;
+}
+.yellowmoonnavbar ul li{
+    margin: 0 5px;
+}
+.yellowmoonnavbar ul li:hover{
+    border: 1px solid yellow;
+}
+
+/* about us section */
+.about-us{
+    padding: 100px 0;
+}
+.about-title{
+    border-right: 2px solid yellow;
+}
+
+/* random text section */
+.random{
+    background-color: yellow;
+    padding: 150px 0;
+}
+
+/* portfolio section */
+.portfolio{
+    padding: 100px 0;
+}
+.col-md-3{
+    padding: 5px !important;
+}
+
+.box{
+    position: relative;
+}
+.shade{
+    position: absolute;
+    background-color: yellow;
+    z-index: 1;
+    top: 5px;
+    width: 97%;
+    height: 94%;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+.shade:hover{
+    opacity: 1;
+}
+
+/* clients section */
+.clients{
+    padding: 100px 0;
+}
+
+/* contact us section */
+.contact{
+    padding: 100px 0;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+
+/* media section */
+@media screen and (max-width:992px){
+    .mob{
+        margin: 0px 0px !important;
+    }
+    .yellowmoonnavbar ul li:nth-child(2){
+        display: none;
+    }
+}

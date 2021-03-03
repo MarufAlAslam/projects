@@ -1,0 +1,168 @@
+/* slick */
+.slider{
+    position: relative;
+}
+.slider .prev_arrow{
+    color:black;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    left: 0px;
+}
+
+.slider .prev_arrow:hover{
+    background-color: #00c8c8;
+    color: white;
+}
+.slider .next_arrow{
+    color: black;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    bottom:50%;
+}
+
+.slider .next_arrow:hover{
+    background-color: #00c8c8;
+    color: white;
+}
+
+/* banner */
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/product-banner.png) ;
+    padding: 100px 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font-48{
+    font-size: 48px !important;
+}
+.font-24{
+    font-size: 24px;
+}
+
+/* nav */
+.nav_custom{
+    padding: 0 1rem;
+}
+
+nav ul li:hover{
+ background-color: #00c8c8;
+ border-radius: 5px;
+ color: white !important;
+}
+
+.navbar-brand:hover{
+    opacity: 0.5;
+}
+
+/* desc-card */
+.desc-card{
+    padding: 50px 0;
+}
+.desc-card .review:hover{
+    color: dodgerblue !important;
+    text-decoration: none;
+}
+.text-ded3aa{
+    color: #ded3aa !important;
+}
+
+.text-8c8c8c{
+    color: #8c8c8c;
+}
+.p-8{
+padding: 8px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-13{
+    font-size: 13px;
+}
+
+/* footer section */
+.bigfooter{
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.height{
+    /* height: 200px; */
+    padding: 50px 0;
+    height: 150px;
+
+}
+.btn-dark, .btn-outline-dark:hover{
+    background-color: #00c8c8;
+    border-color:  #00c8c8;
+}
+.compare:hover i{
+color: #00c8c8;
+}
+
+/* footer section */
+.footer{
+    background-color: #333333;
+    padding: 15px 0;
+}
+/* tab section */
+.Tab{
+    padding-bottom: 100px;
+}
+.bg-f8f8f8{
+    background-color: #f8f8f8;
+}
+.nav-tabs .nav-link.active{
+    background-color: #333;
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: white !important;
+}
+
+
+/* media section */
+@media screen and (max-width:1200px){
+    nav{
+        position: relative;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 100px;
+        top: 8px;
+    }
+    .Search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display: none;
+    }
+}
+@media screen and (max-width:992px){
+    .text{
+        display: block;
+    }
+    .center{
+        text-align: center !important;
+    }
+    .img-fluid{
+        width: 690px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .go{
+        display: none
+    }
+    
+}

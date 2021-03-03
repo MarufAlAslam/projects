@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.screen{
+    
+}
+
+.bg-left{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(0, 0, 255, 0.5)),url("../img/41.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 70px;
+}
+
+.bg-right{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    padding: 50px 70px;
+}
+.mt-200{
+    margin-top: 150px !important;
+    font-size: 50px !important;
+}

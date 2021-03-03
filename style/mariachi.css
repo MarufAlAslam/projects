@@ -1,0 +1,234 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mynav{
+background-color: #4a1831;
+text-transform: uppercase;
+}
+.text{
+    color: #e7be9c;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+/* banner */
+.banner{
+    background-image: url(../img/mariachi_banner.png);
+    padding: 132px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.px-70{
+    padding: 0 70px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.font-size-80{
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+.text-color{
+    color: #ffd7ad;
+}
+.banner-text{
+    padding-left: 0;
+}
+
+/* dont miss section */
+.dontmiss{
+    padding: 65px 0;
+    background-color: #ffd7ad;
+}
+.text_color{
+color: #4a1831;
+}
+.mb-50{
+    margin-bottom: 30px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.btn-custom{
+    background-color: #4a1831;
+    color:  #ffd7ad;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+.btn-custom:hover{
+    color: white;
+}
+
+/* about section */
+.about{
+    padding-top: 98px;
+    background-color: #ffd7ad;
+    position: relative;
+    padding-bottom: 222px;
+}
+.myImg{
+    width: 600px;
+    margin-bottom: -10px;
+}
+.center-thing{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.font-size-18{
+    font-size: 55px;
+    color: #4a1831;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.mb-80{
+    margin-bottom: 50px;
+}
+.font-size-130{
+    font-size: 130px;
+    font-weight: bold;
+    color: #e63956;
+}
+.font-size-50{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px;
+    color: #55112e;
+}
+.tacos{
+    font-weight: bold;
+    color: #6cc5ac;
+    margin-top: -30px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.about-img{
+width: 900px;
+position: absolute;
+bottom: 0;
+right: 0;
+top: 570px;
+left: 350px;
+}
+
+/* offer section */
+.offer{
+    background-color: #4a1831;
+    padding: 100px 0;
+}
+.font-size-53{
+    font-size: 53px;
+    padding-bottom: 30px;
+}
+.btn-custom1{
+    background-color: #ffd7ad ;
+    color:  #4a1831;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin-top: 40px;
+}
+
+/* logo section */
+.logo_back{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/mariachi_logo_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    width: 100%;
+}
+.logo1{
+    padding-bottom: 50px;
+}
+.font-size-30{
+    font-size: 35px;
+}
+
+/* offers sections */
+.offers{
+    padding: 120px 0;
+    background-color: #ffd7ad;
+}
+.disp{
+    margin: auto;
+
+}
+.mybtn{
+    background-color: #4a1831;
+    color: #ffd7ad;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    bottom: 37px;
+    left: 167px;
+}
+
+/* fooetr section */
+.bigfooter{
+    background-color: #55112e;
+    padding: 150px 0;
+    color: #ffd8ac;
+}
+.social i{
+    margin: 0 5px;
+    color:  #55112e;
+    padding: 7px;
+    background-color: #ffd8ac;
+    border-radius: 50%;
+    font-size:25px
+}
+.list-style-none{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 2;
+}
+
+
+
+/* media */
+@media screen and (max-width:1199px){
+    
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    .about-img{
+        position: unset;
+        margin: auto;
+        padding-bottom: 0;
+    }
+    .about{
+        padding-bottom: 0;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .input_group{
+        margin-left: 22%;
+margin-right: 36%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .center{
+        text-align: center;
+        border-bottom: 1px solid wheat;
+        padding: 20px;
+    }
+    .mybtn{
+        left: 172px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .mybtn{
+        position: unset;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

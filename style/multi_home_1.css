@@ -1,0 +1,174 @@
+/* =================== universal CSS ======================== */
+.font-14{
+    font-size: 14px;
+}
+#nav{
+    position: relative;
+}
+.drexel{
+    position: absolute;
+    left: 44%;
+    top: 10px;
+}
+.drexel img{
+    width: 130px !important;
+}
+
+
+/* slick css */
+.slider{
+    position: relative;
+    z-index: -999;
+}
+.slider .prev_arrow{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: -405px;
+    right: 70px;
+    z-index: 1;
+    font-weight: 600;
+}
+.slider .next_arrow{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom:-405px;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.slider1{
+    position: relative;
+    z-index: -999;
+}
+.slider1 .prev_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: 90px;
+    right: 70px;
+    z-index: 1;
+    font-weight: 600;
+}
+.slider1 .next_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom:90px;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.myImg{
+    height: 500px !important;
+    width: 100% !important;
+    position: relative;
+}
+.myImg h1{
+    position: absolute;
+    top: 170px;
+    left: 125px;
+}
+
+.myImg p{
+    position: absolute;
+    top: 220px;
+    left: 125px;
+}
+
+.myImg a{
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 125px;
+}
+
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/furniture/furniture\ \(1\).jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.img2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/furniture/furniture\ \(4\).jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.img3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/furniture/furniture\ \(3\).jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    color: white;
+    /* padding: 45%; */
+    z-index: 999;
+}
+.banner{
+    z-index: 999;
+}
+
+.isotope{
+    position: absolute;
+    left: 104px;
+    top: 700px;
+}
+.isotope1{
+    position: absolute;
+    left: 104px;
+    top: 1385px;
+}
+.isotope p{
+    padding: 0;
+    margin: 0;
+}
+.list{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.small{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/furniture/furniture\ \(9\).jpg);
+    padding: 100px;
+    position: absolute;
+    width: 1100px;
+    top: 1000px;
+}
+
+.small1{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/furniture/furniture\ \(9\).jpg);
+    padding: 100px;
+    position: absolute;
+    width: 1100px;
+    top: 1680px;
+}
+.social{
+    position: absolute;
+    top: 2000px;
+}
+/* media section */
+@media screen and (max-width:767px){
+    #nav1 ul{
+        /* display: none; */
+        background-color: red;
+    }
+}

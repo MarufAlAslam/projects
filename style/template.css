@@ -1,0 +1,84 @@
+.banner{
+    background-image: url(../img/temp-banner.png);
+    margin: 0 16px;
+    padding-top: 250px;
+    padding-bottom: 80px;
+}
+/* about */
+.about{
+    padding: 60px 0;
+}
+/* team */
+.team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0ebfdd;
+}
+.mb-80{
+    padding-bottom: 80px;
+}
+.mx-300{
+    margin: 0 300px;
+    background-color: red;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-44{
+    font-size: 44px;
+}
+.team-img{
+    width: 120px;
+    margin: 0 0 10px 0;
+}.margin-top{
+    margin-top: -10px;
+}
+.mt-100{
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 30px 0;
+}
+.footer .footer-nav ul li a{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mail{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    border: 0.5px solid #707377;
+   
+}
+.mr-100{
+    padding-right: 100px;
+}
+.continer{
+    margin: 0 100px !important;
+}
+.margin{
+    padding: 0;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+@media screen and (max-width:768px){
+    .center{
+        padding: 0;
+        margin: 0;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

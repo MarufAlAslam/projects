@@ -1,0 +1,157 @@
+*{
+    font-family: Helvetica;
+}
+
+/* reusable parts */
+.font-size-45{
+    font-size: 45px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.font-familly-helvetica{
+    font-family: Helvetica;
+}
+
+/* navbar-section */
+.navbar-section{
+    background-color: #898d8e !important;
+    color: white;
+    padding: 0 0;
+}
+.navbar-section ul li:hover{
+    background-color: #7d9097;
+}
+.mynav{
+    padding: 0 0 0 1rem !important;
+
+}
+
+/* banner section */
+.banner{
+    background-image: url(../img/temp-banner.png);
+    padding: 350px 0 100px 0;
+}
+.text-d7794a{
+    color: #d7794a;
+}
+
+/* team section */
+.team{
+    padding: 200px 0;
+}
+.bb2{
+    margin: 20px 35% 80px 35%;
+    border-bottom: 2px solid #a07661;
+}
+.mb80{
+    margin-bottom: 80px;
+}
+
+/* counter section */
+.counter{
+    background-color: #1f3138;
+    padding: 50px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-89553b{
+    color: #89553b;
+    font-size: 55px !important;
+}
+
+/* hudai section */
+.hudai{
+    padding: 300px 0;
+    background-image: url(../img/portfolio-hudai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contact us section */
+.contact{
+    padding: 150px 0;
+    background-color: #2a3e47;
+}
+.form-control{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+}
+.form-control:enabled{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+    color: white;
+}
+.bg-2a3e47{
+    background-color:#2a3e47 ;
+}
+
+.bg-2a3e47:hover{
+    background-color:#2a3e47 ;
+}
+.btn-custom{
+    background-color: #89553b;
+    color: white;
+}
+
+/* about us section */
+.about{
+    padding: 200px 0;
+    background-image: url(../img/portfolio-hudai.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    width: 70px;
+    position: relative;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+    top: 35%;
+    left: 47%;
+}
+.team-title{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+/* gallery section */
+.gallery{
+    padding: 50px 0;
+}
+.text-a95e39{
+    color: #a95e39;
+}
+
+/* bigfooter section */
+.bigfooter{
+    padding: 50px 0;
+    background-color: #1b2c33;
+}
+/* footer section */
+.footer{
+    background-color: #000000;
+    padding: 20px 0;
+    color: white;
+}
+.font-size-11{
+    font-size: 11.52px;
+}

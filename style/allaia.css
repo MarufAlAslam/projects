@@ -1,0 +1,50 @@
+.container{
+    padding: 0 2rem !important;
+}
+.myNav{
+    background-color: #004DDA;
+    padding: 5px 0;
+}
+.myNav ul li{
+    margin: 0 10px;
+}
+
+/* megamenu section */
+.home{
+    box-shadow: 0px 0px 20px black;
+    /* width: fit-content; */
+    display: none;
+    padding: 10px;
+    padding-right: 50px;
+    line-height: 2rem;
+    position: absolute;
+    left: 30%;
+    z-index: 1000;
+    background-color: white;
+}
+.home ul{
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.home ul li{
+    padding: 0 10px;
+}
+
+.home ul li:hover {
+    display: inline-block;
+    background-color: rgb(255, 249, 238);
+    border-radius: 3px;
+}
+.banner{
+    height: 100vh;
+}
+.banner input{
+    z-index: -999;
+}
+.input-group-append{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    opacity: 0.7;
+}

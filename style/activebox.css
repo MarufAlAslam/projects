@@ -1,0 +1,159 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(26, 11, 61,0.9),rgba(26, 11, 61, 0.9)),url(../img/active-box.png);
+    
+}
+hr{
+    border: 1px solid silver;
+    opacity: 0.6;
+    margin-top: 0rem;
+margin-bottom: 0rem;
+}
+.mynav ul li a{
+    font-size: 13px;
+}
+.title{
+    margin-top: 150px;
+}
+.title-text{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.margin-80{
+    margin-top: 80px;
+}
+
+/* works section */
+.works{
+    background-color: white;
+    padding-bottom: 80px;
+}
+.font-size-14{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.padding-100{
+    padding: 80px 20px 0 20px;
+}
+
+
+.imageshow{
+    padding-bottom: 80px;
+}
+.padding-0{
+    padding: 0;
+}
+.box{
+    position: relative;
+}
+.shade{
+    position: absolute;
+    background-color: rgba(235, 34, 34, 0.733);
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+.shade:hover{
+    opacity: 1;
+}
+
+.shadow-text{
+   padding-top: 100px
+}
+.font-size-13{
+    font-size: 15px;
+    margin: 0;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.team{
+    padding-bottom: 80px;
+}
+.card{
+    border: none;
+}
+.title{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.subtitle{
+    font-size: 12px;
+    margin-bottom: 0;
+    color: red;
+}
+.social{
+    padding: 0;
+}
+.team ul li{
+    border: 1px solid #c6cacc;
+    color: #c6cacc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-violet{
+    background-color: #53354a;
+    padding: 0;
+    margin: 0;
+}
+.slider-section{
+    margin:0 0 100px 0;
+    padding: 0;
+    width: 100%;
+}
+.font-size-36{
+    font-size: 25px;
+}
+.slick-prev::before {
+    content: none !important;
+}
+.slick-next::before {
+    content: none !important;
+}
+.slick-prev {
+    left: 0px !important;
+}
+.slick-next {
+    right: 0px !important;
+}
+/* download */
+.download{
+    padding-bottom: 80px;
+}
+.font-size-28{
+    font-size: 28px;
+}
+
+/* bigfooter */
+.bigfooter{
+    background-color: #3a3e64;
+    padding: 60px 0;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.social ul li{
+    border: 1px solid #c6cacc;
+    color: #c6cacc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footer{
+    padding-top: 25px;
+    padding-bottom: 2px;
+    background-color: #313454;
+}

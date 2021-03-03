@@ -1,0 +1,220 @@
+/* =========slick css============ */
+.slider{
+    position: relative;
+}
+.slider .prev_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: -200px;
+    left: -35px;
+    z-index: 1;
+}
+.slider .next_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: -35px;
+    bottom:-200px;
+    z-index: 1;
+}
+
+
+
+
+.slider1{
+    position: relative;
+}
+.slider1 .prev_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: -75px;
+    right: 55px;
+    z-index: 1;
+}
+.slider1 .next_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top:-75px;
+    z-index: 1;
+}
+
+
+.slider2{
+    position: relative;
+}
+.slider2 .prev_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: -75px;
+    right: 55px;
+    z-index: 1;
+}
+.slider2 .next_arrow{
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top:-75px;
+    z-index: 1;
+}
+
+/* ================= slick ends ================== */
+
+.download{
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid gray;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.h-100{
+    height: 100%;
+    background-color:rgb(255, 0, 64);
+}
+.pr-50{
+    padding-right: 110px;
+}
+.cart{
+    position: relative;
+}
+.cartText{
+    font-size: 12px;
+    display: inline;
+    border-radius: 50%;
+    padding: 0 5px;
+    background-color: red;
+    position: absolute;
+}
+.MymenuBar{
+    padding: 0;
+}
+.jumbotron{
+    padding-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+.jumbotron span{
+    margin: 10px 0;
+}
+.jumbotron span i{
+    margin-right: 10px;
+}
+
+.carousel{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 185px;
+    left: 25px;
+    color: white;
+}
+
+.overlay1{
+    position: absolute;
+    top: 185px;
+    left: 25px;
+    color: white;
+}
+.overlay2{
+    position: absolute;
+    top: 185px;
+    left: 25px;
+    color: white;
+}
+
+.overlay #women-p{
+    transition-delay: 1s;
+}
+.overlay #women-h{
+    transition-delay: 1.5s;
+}
+.overlay #women-btn{
+    transition-delay: 2s;
+}
+.font-30{
+    font-size: 60px !important;
+}
+
+.overlay1 #men-p{
+    transition-delay: 8s;
+}
+
+.carousel{
+    padding: 0 !important;
+    margin: 20px 0 0 30px !important;
+    width: 100%;
+}
+
+.exclusive{
+    padding: 100px 0;
+    position: unset;
+    margin-bottom: 100px;
+}
+
+.zoom{
+    padding: 200px 0 100px 0;
+    margin-left: 20px;
+}
+.zoom .card{
+    padding: 15px 0px 15px 50px;
+    background-color: #FFDBDF;
+}
+.zoom .card img{
+   width:100%;
+}
+.zoom .card:hover img{
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    z-index: -9999;
+}
+.zoom a{
+    text-decoration: none;
+}
+.zoom a:hover{
+    text-decoration: none;
+    color: red;
+}
+.bg{
+    background-color: #D6F7FE !important;
+}
+.bg img{
+    height: 301px;
+}
+
+/* banner */
+.banner{
+    padding-top: 400px;
+    padding-bottom: 100px;
+}
+
+.brands{
+    padding-top: 350px;
+}
+
+.subscribe{
+    padding: 60px 0;
+    background-color: black;
+}

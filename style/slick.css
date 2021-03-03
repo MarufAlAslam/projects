@@ -1,0 +1,29 @@
+.slider{
+    position: relative;
+}
+.slider .prev_arrow{
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: -200px;
+    left: 15px;
+}
+.slider .next_arrow{
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    bottom:-200px;
+}

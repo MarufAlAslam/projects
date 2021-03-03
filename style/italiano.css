@@ -1,0 +1,143 @@
+/* reusable parts */
+.font-30{
+    font-size: 22px;
+}
+.font-35{
+    font-size: 85px;
+}
+.font-40{
+    font-size: 40px;
+}
+
+.font-50{
+    font-size: 50px;
+}
+/* navbar */
+.mynav{
+    padding: 20px 0;
+    background-color: #736c4d;
+    color: white;
+}
+
+/* banner */
+.banner{
+    padding: 250px 0 100px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/italiano-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-custom{
+    background-color: #bf964b;
+    padding: 20px 35px;
+    color: White;
+    font-size: 25px;
+}
+
+/* about */
+.about{
+    padding: 30px 0;
+    background-color: #bf964b;
+}
+.box{
+    padding: 300px 200px 0 0;
+    position: relative;
+}
+.shade{
+    width: 350px;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+/* contact section */
+.contact{
+    background-color: #736c4d;
+    padding: 150px 0;
+}
+.contact-title{
+    margin: 120px 0 50px 0;
+}
+
+/* goldendish section */
+.goldendish{
+    background-color: #bf964b;
+    padding: 100px 0 262px 0;
+}
+.box{
+    position: relative;
+}
+.myimg{
+    position: absolute;
+    right: 18px;
+    top: 30px;
+    background-color: #bf964b;
+}
+.mytitle{
+    margin-top: 200px;
+    margin-left: 125px;
+}
+.mysubtitle{
+       margin-left: 125px;
+}
+.discountbtn{
+    margin-top: 70px;
+    margin-left: 125px;
+    padding: 0px 60px !important;
+}
+
+/* quotes */
+.quotes{
+    background-color: #bf964b;
+    padding: 250px 0;
+}
+
+/* location */
+.location{
+    background-image: url(../img/italiano-map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 200px 0;
+}
+
+/* line */
+.line{
+    padding: 50px 0;
+    background-color: #736c4d;
+}
+
+/* bigfooter */
+.bigfooter{
+    padding: 140px 0;
+    background-color: #bf964b;
+}
+.myp{
+    margin-bottom:0 !important;
+}
+.text-custom{
+    color: #bf964b;
+    padding: 0px 5px;
+}
+
+/* footer */
+.footer{
+    background-color: #736c4d;
+    padding: 60px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:992px){
+    .box{
+        margin-top: -120px !important;
+        position: unset;
+    }
+}

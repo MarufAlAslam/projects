@@ -1,0 +1,79 @@
+/* header */
+.header{
+    background-color: #333333;
+    padding:0 0 175px 0 ;
+}
+.logo{
+    width: 60px;
+}
+.mynav{
+    padding-bottom: 150px;
+}
+.font-size-55{
+    font-size: 55px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.btn-custom{
+    background-color: #fa694e;
+}
+.mybtn{
+    position: relative;
+}
+.pos{
+    position: absolute;
+    top: 65px;
+    right: 40px;
+}
+
+/* icon */
+.iconx{
+    padding: 70px 0 ;
+    background-color: #ffffff;
+}
+.bg-fa694e{
+    background-color:#fa694e;
+}
+
+/* success story */
+.success-story{
+    background-color: #fbfbfb;
+    padding: 50px 0;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.col-md-4{
+    padding: 10px;
+}
+.box{
+    position: relative;
+}
+.shade{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 1;
+    top: 10px;
+    width: 94%;
+
+    height: 90%;
+    opacity: 0;
+    padding: 20px;
+    transition: all 0.5s ease-in;
+}
+.shade:hover{
+    opacity: 1;
+}
+
+/* footer */
+.foo{
+    padding: 40px 0;
+    background-color: #333333;
+}
+.font-size-13{
+    font-size: 13px;
+}

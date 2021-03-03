@@ -1,0 +1,345 @@
+/* ========== reusable parts ================ */
+.font-10{
+    font-size: 10px;
+}
+.font-30{
+    font-size:30px ;
+}
+.font-70{
+    font-size: 70px;
+}
+.p-25{
+    padding: 20px 0;
+}
+.p-40{
+    padding: 40px 0;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    padding: 0 ;
+}
+.card{
+    border: 0;
+}
+.myinput{
+    border: 0px;
+    border-bottom: 1px solid #d6d6d6 !important;
+}
+.text-warning{
+    color: #ff8b38 !important;
+ }
+ .bg-warning{
+     background-color: #ff9b51 !important;
+ }
+ .card-header{
+     background-color: #f5f5f5 !important;
+ }
+
+hr{
+    padding: 0;
+    margin: 0;
+    height: 3px;
+    background-color: #cccccc;
+}
+/* ================nav bar ==================== */
+.bg-dark{
+    background-color: black !important;
+}
+nav ul li a{
+    padding-right: 20px  !important;
+}
+.nav-toggler{
+    z-index: 1;
+}
+
+.banner{
+    background-image: url("../img/axit-banner.png");
+    padding-top: 100px;
+    padding-bottom: 114px;
+}
+
+/* ===================social =============================== */
+.social{
+    padding: 15px 0;
+    background-color: white;
+}
+.social a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #cccccc;
+}
+.social a:nth-child(7){
+    text-decoration: none;
+    padding-right: 0;
+    color: #cccccc;
+}
+
+.social a:hover{
+    color: blue;
+}
+
+/* =============tabs section================= */
+
+.tabs{
+    padding: 140px 0;
+    background-color: #f5f5f5;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-warning{
+    background-color: #ff8b38 !important;
+    color: white !important;
+}
+.btn-warning:hover{
+    background-color: #db6917;
+    color: white;
+}
+
+#tab2,#tab3{
+    display: none;
+}
+
+/* ====================subtitle section======================== */
+.subtitle{
+    padding: 100px 0;
+}
+
+.subtitle i{
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* ==================standard section ========================== */
+.standard{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+/* ===================== awesome section ===================================== */
+.awesome{
+    padding: 100px 0;
+}
+
+.awesome i{
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+}
+.i-padding{
+    padding: 8px 13px;
+}
+
+.i-padding1{
+    padding: 8px 7px;
+}
+.i-padding2{
+    padding: 8px 10px;
+}
+
+/* ======================== pricing secction ===================================== */
+.pricing{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+.cardone:hover, .cardtwo:hover, .cardthree:hover{
+    transition: all 1.2s ease;
+    transform: translateY(-40px);
+    cursor: pointer;
+}
+.hidden-button,.hidden-button1,.hidden-button2{
+    margin: 0;
+    padding: 10px 0 5px 0;
+    display: none;
+    text-align: center;
+    background-color:  #ff8b38;
+}
+/* .cardone:hover .hidden-button{
+    display: block;
+} */
+
+.pricing .card .card-footer{
+    border-top: 5px solid #ff8b38;
+}
+
+.pricing ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 35px;
+    
+}
+
+.pricing ul li {
+    border-bottom: 1px solid gray;
+}
+
+/* ====================== clients seection ======================= */
+.clients{
+    padding: 100px 0;
+}
+
+.chatbubble{
+    position: relative;
+}
+
+.chat{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 18px;
+}
+.p-m{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* ==================bottom banner==================================== */
+.bottombanner{
+    background-image: url(../img/axit-bottom-banner.png);
+    padding: 70px 0;
+}
+
+/* =================== contact section =====================*/
+.contact{
+    padding: 100px 0;
+}
+
+.contact input{
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0 !important;
+}
+.contact input:nth-child(1){
+    margin-bottom: 30px;
+}
+.contact input:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.contact textarea{
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    height: 100%;
+}
+.mt-40{
+    margin-top: 40px;
+}
+
+/* ====================== footer section ======================= */
+.footer{
+    padding: 20px 0;
+}
+
+.footer i{
+    margin: 10px;
+}
+
+
+/* ============== back to top button =========== */
+.upbtn{
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+/* ============= media queries ================ */
+@media screen and (max-width:1199px){
+    .chat{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .social{
+        text-align: center;
+    }
+    .banner-subtitle{
+        display: none;
+    }
+    
+    .banner .line{
+        display: none;
+    }
+
+    .btn-group{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .tabs{
+        text-align: center;
+    }
+    .tabs button{
+        margin: 20px 0;
+    }
+    .pricing .card{
+        font-size: 13px;
+    }
+    .chat{
+        font-size: 10px;
+    }
+    .clients h5{
+        font-size: 15px;
+    }
+    .p-m{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .banner{
+        text-align: center;
+    }
+    .banner button{
+        margin-bottom: 35px !important;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .banner-subtitle{
+        display: block;
+    }
+    .line{
+        display: block;
+        margin: auto;
+    }
+    .leftText{
+        text-align: start;
+    }
+    .standard{
+        text-align: center;
+    }
+    .pricing .card{
+        margin: 25px 0;
+    }
+    .chat{
+        font-size: 20px;
+        padding: 20px 30px 0 0;
+    }
+    .clients h5{
+        font-size: 25px;
+    }
+    .p-m{
+        font-size: 15px;
+    }
+    .clients .card{
+        border: 1px solid rgba(0,0,0,0.3) !important;
+        margin: 16px 0;
+    }
+    .contact textarea{
+        margin-top: 30px;
+    }
+}

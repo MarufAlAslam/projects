@@ -1,0 +1,89 @@
+/* reusable parts */
+.font-13{
+    font-size: 13px;
+}
+
+/* header section */
+.header{
+    /* background-color: #87509c; */
+    background-image: linear-gradient(rgba(135, 80, 156, 0.5),rgba(135, 80, 156, 0.5)),url(../img/travelly_banner.jpg);
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.header ul li.active{
+    background-color: #643a79;
+    border-radius: 5px;
+}
+.header ul li a:hover{
+    background-color: #643a79;
+}
+.header img:hover{
+    opacity: 0.6;
+}
+.description{
+    padding: 130px 120px;
+}
+.title{
+    padding-bottom:60px ;
+}
+.btn-custom{
+    background-color: #eb7d4b;
+    color: white;
+    padding: 20px 70px;
+    font-size: 20px;
+}
+.btn-custom:hover{
+    background-color:green;
+    color: white;
+    border:1px solid green;
+}
+
+/* services section */
+.services{
+    padding: 100px 0 50px 0;
+    /* background-color: #17c2a4; */
+    background-image: linear-gradient(rgba(23, 194, 163, 0.5),rgba(23, 194, 163, 0.5)),url(../img/temp-banner.png);
+}
+.line{
+    width: 90px;
+    height: 3px;
+    background-color: #14a58c;
+    margin: auto;
+}
+.centerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* images */
+.flag{
+    width: 130px !important;
+}
+.pencil{
+    width: 93px !important;
+}
+.gear{
+    width: 168px !important;
+}
+.rocket{
+    width: 95px !important;
+}
+
+/* team section */
+.team{
+    padding: 120px 0;
+    background-image: linear-gradient(rgba(231, 241, 248, 0.8),rgba(231, 241, 248, 0.8)),url(../img/bg.jpg);
+    background-size: cover;
+}
+.teamImg{
+    width: 195px !important;
+}
+.paddingF{
+    padding: 4px 7px;
+}
+
+/* skills section */
+.skills{
+    padding: 115px 0;
+}

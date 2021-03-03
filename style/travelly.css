@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    background-image: url(../img/travelly_banner.jpg);
+    padding: 0 0 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mynav{
+    background-color:rgba(0, 155, 200, 0.2);
+}
+
+.collapse-btn-nav{
+z-index: 1;
+}
+.border-out{
+    border: none;
+}
+
+.title{
+    margin: 200px 0 30px 0;
+}
+.input-group{
+    margin-top: 0px !important;
+}
+.center{
+    align-items: center;
+}
+.opacity{
+    opacity: 0.8;
+}
+.btn-orange{
+    background-color: orangered !important;
+    padding: 0 30px;
+    border: none;
+}
+
+/* ********destination******** */
+.destination{
+    padding: 60px 0;
+    background-color: #eeeeee;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.font-size-13{
+    font-size: 13px;
+}
+/* ***********before you leave********* */
+.leave{
+    padding: 60px 0;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+/* *******footer******** */
+.footer{
+    background-color: #eeeeee;
+    padding: 20px 0 0 0;
+}
+.footer-nav li a{
+    color: #323232;
+}
+
+/* media */
+@media screen and (max-width:992px){
+    .center992{
+        text-align: center;
+    }
+    .footer-nav{
+     display: none;
+    }
+}

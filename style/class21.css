@@ -1,0 +1,165 @@
+/* font section */
+/* =================== */
+*{
+	font-family: helvetica;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-13{
+    font-size:13px;
+}
+
+
+/* =============== */
+/* color section */
+/* ================ */
+.border-bottom-gray{
+    border-bottom: 1px solid gray;
+}
+
+nav ul .active a{
+    color: silver !important;
+}
+
+.shadow{
+    box-shadow: 0px 5px 10px black;
+}
+
+.text-color{
+    color: #848484;
+}
+
+
+/* ================= */
+/* padding section */
+/* ================= */
+
+.padding-30{
+    padding:30px 0;
+}
+.padding-100{
+    padding: 100px 0;
+}
+
+.btn-padding{
+    padding: 10px 20px;
+}
+.icon-border{
+    padding:10px 10px;
+    border-radius: 60%;
+}
+.icon-facebook{
+    padding:10px 12px;
+}
+.border{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.border-radius{
+    border: 3px solid black;
+    border-radius: 60%;
+}
+.padding{
+    padding: 8px 12px;
+}
+.about{
+    background-color: #e5e5e5;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+/* ================ */
+/* margin-section */
+/* ================= */
+.margin-50{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.margin-20{
+    margin-top:20px;
+}
+.margin-30{
+    margin-top:30px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;;
+}
+.margin-top-100{
+    margin-top: 100;;
+}
+
+
+/* =================== */
+/* background section */
+/* ==================== */
+.banner{
+    background-image: url(../img/carousel\ \(2\).jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 199px;
+	padding-bottom: 135px;
+}
+
+/* =================== */
+/* media section */
+/* =================== */
+@media  screen and (max-width:768px){
+    .p{display: none !important;}
+    .margin-bottom{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:576px){
+    .ml570{margin-left:10px;}
+    .mr570{margin-right: 10px;}
+}
+
+
+/* ======================= */
+/* animation section */
+/* ==================== */
+.anim{
+    animation:myanim 3s infinite ease-in-out;
+}
+
+@keyframes myanim{
+    0%{
+        color:white;
+    }
+    10%{
+        color:black;
+    }
+    20%{
+        color:white;
+    }
+    30%{
+        color:black;
+    }
+    40%{
+        color:white;
+    }
+    50%{
+        color:black;
+    }
+    60%{
+        color:white;
+    }
+    70%{
+        color: black;
+    }
+    80%{
+        color:white;
+    }
+    90%{
+        color:black;
+    }
+    100%{
+        color:white;
+    }
+    
+}
